@@ -19,3 +19,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Third-party notice: assets/template_common.txt and assets/template_glass.txt
+contain parameter values transcribed from the material preset files shipped
+with the OC2ModelTest plugin for Overcooked! 2. Game assets and the plugin
+itself remain the property of their respective rights holders. This license
+covers only the documentation, preset tables and scripts authored in this
+repository, not those third-party materials.

@@ -1,0 +1,23 @@
+{
+  "_note": "材质词 -> materialLibrary.txt 编号登记表模板。复制本文件为 registry.json 后填写；registry.json 是本机私有数据，不要提交到版本库。编号 = 本项目库中非注释非空行的序号（从 0 起），每次生成前必须用 scripts/check_library.py 或 MATERIAL_GUIDE.md 第三节的手工步骤现场核对，禁止凭记忆复用。不同项目各有自己的库，entries 只对 library_path 指向的那一份库有效。",
+  "library_path": "<填写本项目 materialLibrary.txt 的绝对路径>",
+  "output_dir": "<填写输出目录的绝对路径>",
+  "default_material_id": null,
+  "_default_material_id_hint": "不要填固定数字。先在本项目库里查 bundle39 | mat_sk_crate_01 的索引；库里没有这一行就让使用者指定。",
+  "library_fingerprint": {
+    "line_count": null,
+    "sha256": null,
+    "verified_at": null
+  },
+  "next_id": null,
+  "entries": {},
+  "_entry_example": {
+    "<材质词>": {
+      "id": "<该词在库中的索引>",
+      "base_line": "bundle46 | mat_sk_fire_extinguisher_01",
+      "created": "YYYY-MM-DD"
+    }
+  },
+  "projects": {},
+  "_projects_hint": "其它项目各存一份档案，key 用该库 materialLibrary.txt 的绝对路径；每个档案自带 entries / default_material_id / library_fingerprint。"
+}
