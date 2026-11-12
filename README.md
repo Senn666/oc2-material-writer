@@ -22,7 +22,7 @@
 | 能读本地文件的 AI（dsh / Claude Code 等） | 开场让 AI 读 `MATERIAL_GUIDE.md`，按其中流程执行；需要查表时再让它读 `references/` 与 `assets/`。 |
 | 纯对话 AI（豆包 / DeepSeek 网页版等） | 把 `PROMPT.md` **全文复制粘贴**进对话框即可。它自包含了规则、预设词库和两份模板全文，不需要上传任何文件。 |
 
-Release 里的 `oc2-material-writer.zip` 是整个目录的压缩包，既能解压成 skill，也能直接转发给别人——**不访问 GitHub 也能用**。
+**仓库目录本身就是一个完整的 skill 目录**，clone 下来放进 `.workbuddy/skills/` 即可使用，不依赖任何打包步骤。`dist/oc2-material-writer.zip` 是本地生成的整目录压缩包（可上传到 GitHub Release），用于不访问 GitHub 时离线转发；若 Release 里暂时没有附件，把仓库目录自己打成 zip 效果完全一样。
 
 ## 首次使用
 
